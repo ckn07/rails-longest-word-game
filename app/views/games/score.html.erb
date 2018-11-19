@@ -1,0 +1,8 @@
+<h1>Your Score</h1>
+
+<p><%= @outcome %></p>
+
+<%= link_to 'Play again', '/new' %>
+
+<h2><%= "This round: #{@score}" %></h2>
+<h2><%= "Total score: #{cookies[:total_score]}"%></h2>
